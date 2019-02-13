@@ -1,7 +1,7 @@
 {
-  "name": "cx-tree-demo",
+  "name": "cx-tree",
   "version": "1.0.0",
-  "description": "Project for SASS management",
+  "description": "The part of CX-UI-Design - cx-tree component",
   "author": "Broccoli spring( gcx )",
   "private": true,
   "main": "index.js",
