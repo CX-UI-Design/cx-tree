@@ -1,0 +1,154 @@
+{
+  "resultCode": "200",
+  "resultMsg": "操作成功。",
+  "restLog": null,
+  "resultData": {
+    "columns": [
+      {
+        "enterpriseId": 1,
+        "eidtConfig": null,
+        "organizationId": 1,
+        "jeCoreResourcecolumnId": "bUGjh3vau3ZLtO6XlIy",
+        "resourcecolumnFuncinfoId": "2DEJjvjOcDM5caR4bce",
+        "resourcecolumnName": "员工名称",
+        "resourcecolumnNameEn": "userName",
+        "resourcecolumnCode": "userName",
+        "resourcecolumnXtype": "text",
+        "resourcecolumnWidth": "150",
+        "resourcecolumnFieldorderindex": 0.00,
+        "resourcecolumnMorecolumnname": "",
+        "resourcecolumnStatisticstype": "",
+        "resourcecolumnAllowedit": "0",
+        "resourcecolumnColumntip": "0",
+        "resourcecolumnOrder": "0",
+        "resourcecolumnHidden": "0",
+        "selectList": null
+      },
+      {
+        "enterpriseId": 1,
+        "eidtConfig": null,
+        "organizationId": 1,
+        "jeCoreResourcecolumnId": "00WaKLMkDDaHVAk7FPm",
+        "resourcecolumnFuncinfoId": "2DEJjvjOcDM5caR4bce",
+        "resourcecolumnName": "组织简称",
+        "resourcecolumnNameEn": "organizationShortName",
+        "resourcecolumnCode": "organizationShortName",
+        "resourcecolumnXtype": "text",
+        "resourcecolumnWidth": "150",
+        "resourcecolumnFieldorderindex": 0.00,
+        "resourcecolumnMorecolumnname": "",
+        "resourcecolumnStatisticstype": "",
+        "resourcecolumnAllowedit": "0",
+        "resourcecolumnColumntip": "0",
+        "resourcecolumnOrder": "0",
+        "resourcecolumnHidden": "0",
+        "selectList": null
+      },
+      {
+        "enterpriseId": 1,
+        "eidtConfig": null,
+        "organizationId": 1,
+        "jeCoreResourcecolumnId": "3sqL6Uv54vBB8AfmZ3K",
+        "resourcecolumnFuncinfoId": "2DEJjvjOcDM5caR4bce",
+        "resourcecolumnName": "员工账号",
+        "resourcecolumnNameEn": "userAccount",
+        "resourcecolumnCode": "userAccount",
+        "resourcecolumnXtype": "text",
+        "resourcecolumnWidth": "150",
+        "resourcecolumnFieldorderindex": 0.00,
+        "resourcecolumnMorecolumnname": "",
+        "resourcecolumnStatisticstype": "",
+        "resourcecolumnAllowedit": "0",
+        "resourcecolumnColumntip": "",
+        "resourcecolumnOrder": "0",
+        "resourcecolumnHidden": "0",
+        "selectList": null
+      },
+      {
+        "enterpriseId": 1,
+        "eidtConfig": null,
+        "organizationId": 1,
+        "jeCoreResourcecolumnId": "SMD40Oh0QC0KllygowL",
+        "resourcecolumnFuncinfoId": "2DEJjvjOcDM5caR4bce",
+        "resourcecolumnName": "手机号",
+        "resourcecolumnNameEn": "userTelephone",
+        "resourcecolumnCode": "userTelephone",
+        "resourcecolumnXtype": "text",
+        "resourcecolumnWidth": "150",
+        "resourcecolumnFieldorderindex": 0.00,
+        "resourcecolumnMorecolumnname": "",
+        "resourcecolumnStatisticstype": "",
+        "resourcecolumnAllowedit": "0",
+        "resourcecolumnColumntip": "",
+        "resourcecolumnOrder": "0",
+        "resourcecolumnHidden": "0",
+        "selectList": null
+      },
+      {
+        "enterpriseId": 1,
+        "eidtConfig": null,
+        "organizationId": 1,
+        "jeCoreResourcecolumnId": "36jh2rrQIvGGeFDPZxx",
+        "resourcecolumnFuncinfoId": "2DEJjvjOcDM5caR4bce",
+        "resourcecolumnName": "在职状态",
+        "resourcecolumnNameEn": "userState",
+        "resourcecolumnCode": "userState",
+        "resourcecolumnXtype": "select",
+        "resourcecolumnWidth": "150",
+        "resourcecolumnFieldorderindex": 0.00,
+        "resourcecolumnMorecolumnname": "",
+        "resourcecolumnStatisticstype": "",
+        "resourcecolumnAllowedit": "0",
+        "resourcecolumnColumntip": "0",
+        "resourcecolumnOrder": "0",
+        "resourcecolumnHidden": "0",
+        "selectList": [
+          {
+            "label": "在职",
+            "value": "1"
+          },
+          {
+            "label": "离职",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "enterpriseId": 1,
+        "eidtConfig": null,
+        "organizationId": 1,
+        "jeCoreResourcecolumnId": "HLRWgtwHwDXTozkZlxU",
+        "resourcecolumnFuncinfoId": "2DEJjvjOcDM5caR4bce",
+        "resourcecolumnName": "启用状态",
+        "resourcecolumnNameEn": "isActived",
+        "resourcecolumnCode": "isActived",
+        "resourcecolumnXtype": "select",
+        "resourcecolumnWidth": "150",
+        "resourcecolumnFieldorderindex": 0.00,
+        "resourcecolumnMorecolumnname": "",
+        "resourcecolumnStatisticstype": "",
+        "resourcecolumnAllowedit": "0",
+        "resourcecolumnColumntip": "0",
+        "resourcecolumnOrder": "0",
+        "resourcecolumnHidden": "0",
+        "selectList": [
+          {
+            "label": "停用",
+            "value": "0"
+          },
+          {
+            "label": "启用",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "columnsEnNames": {
+      "userState": "",
+      "isActived": ""
+    }
+  },
+  "pageNum": null,
+  "pageSize": null,
+  "total": null
+}

@@ -1,0 +1,16 @@
+{
+  "resultCode": "200",
+  "resultMsg": "操作成功。",
+  "restLog": null,
+  "resultData": [
+    {
+      "enterpriseId": 1,
+      "enterpriseName": "绿城物业",
+      "id": 702,
+      "password": null
+    }
+  ],
+  "pageNum": null,
+  "pageSize": null,
+  "total": null
+}

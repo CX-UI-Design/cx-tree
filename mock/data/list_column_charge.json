@@ -1,0 +1,372 @@
+{
+  "resultCode": "200",
+  "resultMsg": "操作成功。",
+  "restLog": null,
+  "resultData": {
+    "columns": [
+      {
+        "enterpriseId": 1,
+        "eidtConfig": null,
+        "organizationId": 1,
+        "jeCoreResourcecolumnId": "6d038b7f-39bb-48b1-9e67-8daefcaf78a4",
+        "resourcecolumnFuncinfoId": "newsee-charge-root-funcid-itemlist",
+        "resourcecolumnName": "编码",
+        "resourcecolumnNameEn": "ChargeItemCode",
+        "resourcecolumnCode": "chargeItemCode",
+        "resourcecolumnXtype": "text",
+        "resourcecolumnWidth": "200",
+        "resourcecolumnFieldorderindex": 0.00,
+        "resourcecolumnMorecolumnname": null,
+        "resourcecolumnStatisticstype": null,
+        "resourcecolumnAllowedit": "0",
+        "resourcecolumnColumntip": "",
+        "resourcecolumnOrder": "1",
+        "resourcecolumnHidden": "0",
+        "selectList": null
+      },
+      {
+        "enterpriseId": 1,
+        "eidtConfig": null,
+        "organizationId": 1,
+        "jeCoreResourcecolumnId": "4a0b2536-6613-4c24-be04-c15e7f6ddab6",
+        "resourcecolumnFuncinfoId": "newsee-charge-root-funcid-itemlist",
+        "resourcecolumnName": "名称",
+        "resourcecolumnNameEn": "ChargeItemName",
+        "resourcecolumnCode": "chargeItemName",
+        "resourcecolumnXtype": "text",
+        "resourcecolumnWidth": "300",
+        "resourcecolumnFieldorderindex": 0.00,
+        "resourcecolumnMorecolumnname": null,
+        "resourcecolumnStatisticstype": null,
+        "resourcecolumnAllowedit": "0",
+        "resourcecolumnColumntip": "",
+        "resourcecolumnOrder": "2",
+        "resourcecolumnHidden": "0",
+        "selectList": null
+      },
+      {
+        "enterpriseId": 1,
+        "eidtConfig": null,
+        "organizationId": 1,
+        "jeCoreResourcecolumnId": "ab002c7b-61f1-4763-a72a-ae33fe7a9eae",
+        "resourcecolumnFuncinfoId": "newsee-charge-root-funcid-itemlist",
+        "resourcecolumnName": "上级科目名称",
+        "resourcecolumnNameEn": "highLevelSubjectName",
+        "resourcecolumnCode": "highLevelSubjectName",
+        "resourcecolumnXtype": "text",
+        "resourcecolumnWidth": "300",
+        "resourcecolumnFieldorderindex": 0.00,
+        "resourcecolumnMorecolumnname": null,
+        "resourcecolumnStatisticstype": null,
+        "resourcecolumnAllowedit": "0",
+        "resourcecolumnColumntip": "",
+        "resourcecolumnOrder": "2",
+        "resourcecolumnHidden": "0",
+        "selectList": null
+      },
+      {
+        "enterpriseId": 1,
+        "eidtConfig": null,
+        "organizationId": 1,
+        "jeCoreResourcecolumnId": "894f3033-56c2-4447-88ae-e62987afaad7",
+        "resourcecolumnFuncinfoId": "newsee-charge-root-funcid-itemlist",
+        "resourcecolumnName": "费用类型",
+        "resourcecolumnNameEn": "ChargeItemInType",
+        "resourcecolumnCode": "chargeItemInType",
+        "resourcecolumnXtype": "select",
+        "resourcecolumnWidth": "250",
+        "resourcecolumnFieldorderindex": 0.00,
+        "resourcecolumnMorecolumnname": null,
+        "resourcecolumnStatisticstype": null,
+        "resourcecolumnAllowedit": "0",
+        "resourcecolumnColumntip": "",
+        "resourcecolumnOrder": "6",
+        "resourcecolumnHidden": "0",
+        "selectList": [
+          {
+            "label": "常规收费项目",
+            "value": "1"
+          },
+          {
+            "label": "抄表收费项目",
+            "value": "2"
+          },
+          {
+            "label": "临时收费项目",
+            "value": "3"
+          },
+          {
+            "label": "租赁收费项目",
+            "value": "4"
+          },
+          {
+            "label": "分摊收费项目",
+            "value": "5"
+          },
+          {
+            "label": "出入证收费项目",
+            "value": "7"
+          }
+        ]
+      },
+      {
+        "enterpriseId": 1,
+        "eidtConfig": null,
+        "organizationId": 1,
+        "jeCoreResourcecolumnId": "759890a2-d161-4c12-9af4-6dae7d7c7643",
+        "resourcecolumnFuncinfoId": "newsee-charge-root-funcid-itemlist",
+        "resourcecolumnName": "费用类别",
+        "resourcecolumnNameEn": "ChargeItemClass",
+        "resourcecolumnCode": "chargeItemClass",
+        "resourcecolumnXtype": "select",
+        "resourcecolumnWidth": "200",
+        "resourcecolumnFieldorderindex": 0.00,
+        "resourcecolumnMorecolumnname": null,
+        "resourcecolumnStatisticstype": null,
+        "resourcecolumnAllowedit": "0",
+        "resourcecolumnColumntip": "",
+        "resourcecolumnOrder": "7",
+        "resourcecolumnHidden": "0",
+        "selectList": [
+          {
+            "label": "物业费",
+            "value": "1"
+          },
+          {
+            "label": "多种经营收入",
+            "value": "2"
+          },
+          {
+            "label": "公共收益",
+            "value": "3"
+          }
+        ]
+      },
+      {
+        "enterpriseId": 1,
+        "eidtConfig": null,
+        "organizationId": 1,
+        "jeCoreResourcecolumnId": "59f04fa4-57fe-482b-b5d2-f942e3ebc47b",
+        "resourcecolumnFuncinfoId": "newsee-charge-root-funcid-itemlist",
+        "resourcecolumnName": "是否有效",
+        "resourcecolumnNameEn": "IsWork",
+        "resourcecolumnCode": "isWork",
+        "resourcecolumnXtype": "select",
+        "resourcecolumnWidth": "150",
+        "resourcecolumnFieldorderindex": 0.00,
+        "resourcecolumnMorecolumnname": null,
+        "resourcecolumnStatisticstype": null,
+        "resourcecolumnAllowedit": "0",
+        "resourcecolumnColumntip": "",
+        "resourcecolumnOrder": "12",
+        "resourcecolumnHidden": "0",
+        "selectList": [
+          {
+            "label": "是",
+            "value": "1"
+          },
+          {
+            "label": "否",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "enterpriseId": 1,
+        "eidtConfig": null,
+        "organizationId": 1,
+        "jeCoreResourcecolumnId": "d085ad3a-98d0-47b5-a3ed-bde270964013",
+        "resourcecolumnFuncinfoId": "newsee-charge-root-funcid-itemlist",
+        "resourcecolumnName": "财务接口编码",
+        "resourcecolumnNameEn": "ChargeInterfaceCode",
+        "resourcecolumnCode": "chargeInterfaceCode",
+        "resourcecolumnXtype": "text",
+        "resourcecolumnWidth": "200",
+        "resourcecolumnFieldorderindex": 0.00,
+        "resourcecolumnMorecolumnname": null,
+        "resourcecolumnStatisticstype": null,
+        "resourcecolumnAllowedit": "0",
+        "resourcecolumnColumntip": "",
+        "resourcecolumnOrder": "10",
+        "resourcecolumnHidden": "0",
+        "selectList": null
+      },
+      {
+        "enterpriseId": 1,
+        "eidtConfig": null,
+        "organizationId": 1,
+        "jeCoreResourcecolumnId": "9dd7278a-6ece-4d39-95f3-0284e914dd0d",
+        "resourcecolumnFuncinfoId": "newsee-charge-root-funcid-itemlist",
+        "resourcecolumnName": "票据打印类型",
+        "resourcecolumnNameEn": "BillPrintType",
+        "resourcecolumnCode": "billPrintType",
+        "resourcecolumnXtype": "select",
+        "resourcecolumnWidth": "200",
+        "resourcecolumnFieldorderindex": 0.00,
+        "resourcecolumnMorecolumnname": null,
+        "resourcecolumnStatisticstype": null,
+        "resourcecolumnAllowedit": "0",
+        "resourcecolumnColumntip": "",
+        "resourcecolumnOrder": "9",
+        "resourcecolumnHidden": "0",
+        "selectList": [
+          {
+            "label": "按面积",
+            "value": "1"
+          },
+          {
+            "label": "按数量",
+            "value": "2"
+          },
+          {
+            "label": "其他",
+            "value": "3"
+          }
+        ]
+      },
+      {
+        "enterpriseId": 1,
+        "eidtConfig": null,
+        "organizationId": 1,
+        "jeCoreResourcecolumnId": "08213bf7-cda6-457a-b110-982f249fcf06",
+        "resourcecolumnFuncinfoId": "newsee-charge-root-funcid-itemlist",
+        "resourcecolumnName": "财务接口名称",
+        "resourcecolumnNameEn": "ChargeInterfaceName",
+        "resourcecolumnCode": "chargeInterfaceName",
+        "resourcecolumnXtype": "text",
+        "resourcecolumnWidth": "250",
+        "resourcecolumnFieldorderindex": 0.00,
+        "resourcecolumnMorecolumnname": null,
+        "resourcecolumnStatisticstype": null,
+        "resourcecolumnAllowedit": "0",
+        "resourcecolumnColumntip": "",
+        "resourcecolumnOrder": "11",
+        "resourcecolumnHidden": "0",
+        "selectList": null
+      },
+      {
+        "enterpriseId": 1,
+        "eidtConfig": null,
+        "organizationId": 1,
+        "jeCoreResourcecolumnId": "52284bc9-b8cd-4c42-a519-8cdfbb538cc5",
+        "resourcecolumnFuncinfoId": "newsee-charge-root-funcid-itemlist",
+        "resourcecolumnName": "税率(%)",
+        "resourcecolumnNameEn": "TaxRate",
+        "resourcecolumnCode": "taxRate",
+        "resourcecolumnXtype": "text",
+        "resourcecolumnWidth": "50",
+        "resourcecolumnFieldorderindex": 0.00,
+        "resourcecolumnMorecolumnname": "",
+        "resourcecolumnStatisticstype": "",
+        "resourcecolumnAllowedit": "0",
+        "resourcecolumnColumntip": "0",
+        "resourcecolumnOrder": "0",
+        "resourcecolumnHidden": "0",
+        "selectList": null
+      },
+      {
+        "enterpriseId": 1,
+        "eidtConfig": null,
+        "organizationId": 1,
+        "jeCoreResourcecolumnId": "48eb65f7-acb9-4a2d-89f4-6ff59afb185d",
+        "resourcecolumnFuncinfoId": "newsee-charge-root-funcid-itemlist",
+        "resourcecolumnName": "科目类型",
+        "resourcecolumnNameEn": "ChargeItemType",
+        "resourcecolumnCode": "chargeItemType",
+        "resourcecolumnXtype": "select",
+        "resourcecolumnWidth": "200",
+        "resourcecolumnFieldorderindex": 0.00,
+        "resourcecolumnMorecolumnname": null,
+        "resourcecolumnStatisticstype": null,
+        "resourcecolumnAllowedit": "0",
+        "resourcecolumnColumntip": "",
+        "resourcecolumnOrder": "3",
+        "resourcecolumnHidden": "0",
+        "selectList": [
+          {
+            "label": "住宅物业服务费",
+            "value": "1"
+          },
+          {
+            "label": "商铺、商场物业服务费",
+            "value": "2"
+          },
+          {
+            "label": "写字楼物业服务费",
+            "value": "3"
+          },
+          {
+            "label": "学校物业服务费",
+            "value": "4"
+          },
+          {
+            "label": "花园物业服务费",
+            "value": "5"
+          },
+          {
+            "label": "车场（库）服务费",
+            "value": "6"
+          },
+          {
+            "label": "生活垃圾清运服务费",
+            "value": "7"
+          },
+          {
+            "label": "电梯维护服务费",
+            "value": "8"
+          }
+        ]
+      },
+      {
+        "enterpriseId": 1,
+        "eidtConfig": null,
+        "organizationId": 1,
+        "jeCoreResourcecolumnId": "bc691438-0cf0-435f-aed2-34f6b5d56506",
+        "resourcecolumnFuncinfoId": "newsee-charge-root-funcid-itemlist",
+        "resourcecolumnName": "登记人",
+        "resourcecolumnNameEn": "CreateUserName",
+        "resourcecolumnCode": "createUserName",
+        "resourcecolumnXtype": "text",
+        "resourcecolumnWidth": "300",
+        "resourcecolumnFieldorderindex": 0.00,
+        "resourcecolumnMorecolumnname": null,
+        "resourcecolumnStatisticstype": null,
+        "resourcecolumnAllowedit": "0",
+        "resourcecolumnColumntip": "",
+        "resourcecolumnOrder": "2",
+        "resourcecolumnHidden": "1",
+        "selectList": null
+      },
+      {
+        "enterpriseId": 1,
+        "eidtConfig": null,
+        "organizationId": 1,
+        "jeCoreResourcecolumnId": "415f-f48f-afd4-qr45",
+        "resourcecolumnFuncinfoId": "newsee-charge-root-funcid-itemlist",
+        "resourcecolumnName": "修改人",
+        "resourcecolumnNameEn": "UpdateUserName",
+        "resourcecolumnCode": "updateUserName",
+        "resourcecolumnXtype": "text",
+        "resourcecolumnWidth": "300",
+        "resourcecolumnFieldorderindex": 0.00,
+        "resourcecolumnMorecolumnname": null,
+        "resourcecolumnStatisticstype": null,
+        "resourcecolumnAllowedit": "0",
+        "resourcecolumnColumntip": null,
+        "resourcecolumnOrder": null,
+        "resourcecolumnHidden": "0",
+        "selectList": null
+      }
+    ],
+    "columnsEnNames": {
+      "isWork": "",
+      "billPrintType": "",
+      "chargeItemClass": "",
+      "chargeItemType": "",
+      "chargeItemInType": ""
+    }
+  },
+  "pageNum": null,
+  "pageSize": null,
+  "total": null
+}

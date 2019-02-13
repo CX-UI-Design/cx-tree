@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('iconfont/iconfont.eot');
+  src: url('iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('iconfont/iconfont.woff2') format('woff2'),
+  url('iconfont/iconfont.woff') format('woff'),
+  url('iconfont/iconfont.ttf') format('truetype'),
+  url('iconfont/iconfont.svg#iconfont') format('svg');
+}
+
+[class^="cx-icon-"], [class*=" cx-icon-"] {
+  font-family: "iconfont" !important;
+  display: inline-block;
+  font-size: 12px;
+  color: #c0c4cc;
+  font-style: normal;
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: baseline;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cx-icon-caret-top:before {
+  content: "\e600";
+}
+
+.cx-icon-caret-bottom:before {
+  content: "\e601";
+}
+
+.cx-icon-caret-left:before {
+  content: "\e602";
+}
+
+.cx-icon-caret-right:before {
+  content: "\e603";
+}

@@ -1,0 +1,81 @@
+@import "mixins/mixins";
+@import "common/var";
+
+@include prefix(tree) {
+  position: relative;
+  cursor: default;
+  background: $--color-white;
+  color: $--tree-text-color;
+
+  //图标
+  .cx-tree-node__expand-icon {
+    cursor: pointer;
+    color: #c0c4cc;
+    font-size: 12px;
+    transform: rotate(0deg);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .cx-tree-node__expand-icon {
+    &.expanded {
+      transform: rotate(90deg);
+    }
+    &.is-leaf {
+      color: transparent;
+      cursor: default;
+    }
+  }
+
+  //节点
+  .cx-tree-node {
+    white-space: nowrap; //建立布局过程中如何处理元素中的空白符:文本不会换行，文本会在在同一行上继续，直到遇到 <br> 标签
+    outline: none; //(轮廓）是绘制于元素周围的一条线
+    &:focus > {
+      .cx-tree-node__content {
+        background-color: #f5f7fa;
+      }
+    }
+    //节点内容
+    .cx-tree-node__content {
+      display: flex;
+      align-items: center;
+      height: 26px;
+      cursor: pointer;
+      &:hover {
+        background-color: #f5f7fa;
+      }
+      //图标
+      & > .cx-tree-node__expand-icon {
+        padding: 6px;
+      }
+      & > .cx-checkbox {
+        margin-right: 8px;
+      }
+    }
+  }
+
+  //显示空白情况
+  .cx-tree__empty-block {
+    position: relative;
+    min-height: 60px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    .cx-tree__empty-text {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      color: #6f7180;
+    }
+  }
+  //高亮
+  &.cx-tree--current-highlight .cx-tree-node.is-current > .cx-tree-node__content {
+    background-color: mix($--color-white, $--color-primary, 92%);
+  }
+}
+
+
+
+

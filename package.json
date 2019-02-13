@@ -1,0 +1,20 @@
+{
+  "name": "cx-tree-demo",
+  "version": "1.0.0",
+  "description": "Project for SASS management",
+  "author": "Broccoli spring( gcx )",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "command": "node_modules\\cx-vue-webpck-cli\\lib\\menu.sh",
+    "command:mac": "node_modules/cx-vue-webpck-cli/lib/menu.sh"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "cx-vue-webpck-cli": "^0.2.1",
+    "mockjs": "^1.0.1-beta3"
+  },
+  "dependencies": {
+    "vue": "^2.5.22"
+  }
+}
