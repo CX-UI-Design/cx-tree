@@ -117,7 +117,7 @@
         },
         watch: {
             filterText(val) {
-                this.$refs['cx-element-tree'].filter(val);
+                this.$refs['cx-tree'].filter(val);
             }
         },
         computed: {},
@@ -141,11 +141,11 @@
             },
 
             getTreeInfo() {
-                this.info.currentNodeKey = this.$refs['cx-element-tree'].getCurrentNodeKey();
+                this.info.currentNodeKey = this.$refs['cx-tree'].getCurrentNodeKey();
                 /**
                  * 获取当前被选中节点的 data，若没有节点被选中则返回 null
                  */
-                this.info.currentNode = JSON.stringify(this.$refs['cx-element-tree'].getCurrentNode(), null, 4);
+                this.info.currentNode = JSON.stringify(this.$refs['cx-tree'].getCurrentNode(), null, 4);
             },
             changeData() {
                 this.treedata = [
@@ -180,7 +180,7 @@
              * 条件 - 若节点可被选择（即 show-checkbox 为 true）
              */
             getCheckedNodes() {
-                this.info.checkedNodesList = this.$refs['cx-element-tree'].getCheckedNodes();//可以不带参数，带了参数，优先级高于 checkConfig
+                this.info.checkedNodesList = this.$refs['cx-tree'].getCheckedNodes();//可以不带参数，带了参数，优先级高于 checkConfig
             },
 
             /**
@@ -188,7 +188,7 @@
              * 条件 - 若节点可被选择（即 show-checkbox 为 true）
              */
             getCheckedKeys() {
-                this.info.checkedKeysList = this.$refs['cx-element-tree'].getCheckedKeys(false, false);//可以不带参数，带了参数，优先级高于 checkConfig
+                this.info.checkedKeysList = this.$refs['cx-tree'].getCheckedKeys(false, false);//可以不带参数，带了参数，优先级高于 checkConfig
             },
 
 

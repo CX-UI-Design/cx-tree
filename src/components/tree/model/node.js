@@ -1,4 +1,4 @@
-import {markNodeData} from "../../../../element-tree/src/model/util";
+// import {markNodeData} from "../../../../element-tree/src/model/util";
 
 import {objectAssign} from "../utils";
 

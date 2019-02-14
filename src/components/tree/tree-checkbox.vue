@@ -65,7 +65,7 @@
             return {
                 defaultModel: false,//默认 model 值
                 focus: false,//失焦/聚焦 - 通过数据改变样式
-                Name: 'cx-element-tree-checkbox'
+                Name: 'cx-tree-checkbox'
             };
         },
         computed: {

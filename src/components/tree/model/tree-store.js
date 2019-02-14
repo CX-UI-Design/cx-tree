@@ -1,5 +1,5 @@
 import Node from './node';
-import {getNodeKey} from "../../../../element-tree/src/model/util";
+// import {getNodeKey} from "../../../../element-tree/src/model/util";
 
 
 export default class TreeStore {

@@ -21,7 +21,7 @@
                     @click.stop="handleExpandIconClick"
                     :class="[
                           { 'is-leaf': node.isLeaf, expanded: !node.isLeaf && expanded },
-                          'cx-element-tree-node__expand-icon',
+                          'cx-tree-node__expand-icon',
                           tree.iconClass ? tree.iconClass : 'cx-icon-caret-right'
                         ]">
                 </span>
@@ -155,7 +155,7 @@
                 const parent = this.$parent;
 
                 /**
-                 * 第一层循环时，node-element-tree 的父组件 还是 最外层的 cx-element-tree （通过判断 是否有 isCXTree 字段值)
+                 * 第一层循环时，node-element-tree 的父组件 还是 最外层的 cx-tree （通过判断 是否有 isCXTree 字段值)
                  * 之后，每一层的父组件都是上一层的 node-element-tree， 自己再做递归
                  * 所取到的tree字段也是其父组件的tree
                  */
