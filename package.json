@@ -11,7 +11,7 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "cx-vue-webpck-cli": "^0.2.1",
+    "cx-builder": "^0.0.1",
     "mockjs": "^1.0.1-beta3"
   },
   "dependencies": {
